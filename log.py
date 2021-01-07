@@ -19,8 +19,8 @@ switch_log_levels = {
 def logsetup(logfile):
     global filelogger
 
-    logFormatStr = "[%(asctime)s %(threadname)s, %(levelname)s] %(message)s"
-    consoleFormatStr = "[%(threadname)s, %(levelname)s] %(message)s"
+    logFormatStr = "[%(asctime)s %(threadName)s, %(levelname)s] %(message)s"
+    consoleFormatStr = "[%(threadName)s, %(levelname)s] %(message)s"
 
     # log file handler
     logFormatter = logging.Formatter(logFormatStr)
