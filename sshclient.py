@@ -5,7 +5,7 @@ class createSSHClient(object):
         self.host = host
         self.port = port
         self.user = user
-        self.password
+        self.password = password
 
     def connect(self):
         try:
